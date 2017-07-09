@@ -30,6 +30,10 @@ public class ReloadClass {
         System.out.println(foo.m1());
     }
 }
+
+/*
+* Foo and Bar the methods must same.
+* */
 class Foo {
     String m() { return "foo."; }
     String m(String a) {return "foo "+a ; }
