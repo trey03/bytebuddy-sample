@@ -26,7 +26,7 @@ public class ReloadClass {
         loaded.saveIn(SampleHelper.INSTACE.getSaveDir());
 
         System.out.println(foo.m());
-        System.out.println(foo.m("test"));
+        System.out.println(foo.m("test..."));
         System.out.println(foo.m1());
     }
 }
